@@ -6,4 +6,7 @@ module.exports = {
         ID: process.env.GITHUB_ID,
         PASSWORD: process.env.GITHUB_PASSWORD,
     },
+    VELOG: {
+        NICKNAME: process.env.VELOG_NICKNAME,
+    },
 };

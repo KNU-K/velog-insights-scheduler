@@ -2,9 +2,9 @@ const puppeteer = require("puppeteer");
 const jsonProcessor = require("../utils/json-processor");
 const { GITHUB } = require("../config/dotenv");
 
-async function authenticateOauth(page, provider, userId, password) {
+async function authenticateOauth(page, provider, velog_nickname, github) {
     try {
-        await page.goto("https://velog.io/@knu-kang/posts", { waitUntil: "domcontentloaded" });
+        await page.goto(`https://velog.io/@${velog_nickname}/posts`, { waitUntil: "domcontentloaded" });
         await page.waitForSelector(
             "body > div > div.BasicLayout_block__6bmSl > div.responsive_mainResponsive___uG64 > main > div > section > div.VelogPosts_block__nfCQF > div.FlatPostCardList_block__VoFQe "
         );
@@ -17,8 +17,8 @@ async function authenticateOauth(page, provider, userId, password) {
         await page.goto(href, { waitUntil: "domcontentloaded" });
 
         // 로그인 폼 채우기
-        await page.type("#login_field", userId);
-        await page.type("#password", password);
+        await page.type("#login_field", github.ID);
+        await page.type("#password", github.PASSWORD);
         await page.click("#login > div.auth-form-body.mt-3 > form > div > input.btn.btn-primary.btn-block.js-sign-in-button");
         await page.waitForNavigation({ waitUntil: "domcontentloaded" });
     } catch (err) {
@@ -26,14 +26,14 @@ async function authenticateOauth(page, provider, userId, password) {
     }
 }
 
-async function run(userId, password) {
+async function run(velog_nickname, github) {
     const browser = await puppeteer.launch({
         headless: false,
     });
     const page = await browser.newPage();
 
     try {
-        await authenticateOauth(page, "github", userId, password);
+        await authenticateOauth(page, "github", velog_nickname, github);
         let lastHeight = await page.evaluate("document.body.scrollHeight");
 
         await new Promise((resolve) => setTimeout(resolve, 3000));
