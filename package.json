@@ -8,6 +8,10 @@
         "start": "nodemon ./src/app",
         "test": "jest"
     },
+    "jest": {
+        "collectCoverage": true,
+        "coverageDirectory": "coverage"
+    },
     "keywords": [
         "velog",
         "node",
