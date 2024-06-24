@@ -1,0 +1,299 @@
+[
+  {
+    "hit": {
+      "전체": "3",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Backend-Nginx-%EC%99%80-%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%84%9C-2",
+    "title": "[Backend] Nginx 와 로드밸런서 (2)"
+  },
+  {
+    "hit": {
+      "전체": "14",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Backend-Nginx-%EC%99%80-%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%84%9C-1",
+    "title": "[Backend] Nginx 와 로드밸런서 (1)"
+  },
+  {
+    "hit": {
+      "전체": "7",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/%EC%83%9D%ED%99%9C-%EC%86%8D%EC%9D%98-%ED%86%B5%EA%B3%84-%EC%9E%90%EB%A3%8C-%EB%AA%A8%EC%9C%BC%EA%B8%B0",
+    "title": "[생활 속의 통계] 자료 모으기"
+  },
+  {
+    "hit": {
+      "전체": "13",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Trouble-Shooting-Spring-Security%EB%A5%BC-%ED%86%B5%ED%95%9C-%EC%9D%B8%EC%A6%9D-%EA%B5%AC%ED%98%84-%EC%A4%91-CustomUserDetailsService-%EC%9D%98-loadUserByUsername%EC%9D%98-username%EC%9D%B4-%EC%97%86%EB%8A%94-%EC%98%A4%EB%A5%98",
+    "title": "[Trouble Shooting] Spring Security를 통한 인증 구현 중 CustomUserDetailsService 의 loadUserByUsername의 username이 없는 오류"
+  },
+  {
+    "hit": {
+      "전체": "15",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/%ED%9A%8C%EA%B3%A0%EB%A1%9D-3%ED%95%99%EB%85%84-%EA%B2%A8%EC%9A%B8%EB%B0%A9%ED%95%99%EC%9D%84-%EB%A7%88%EC%B9%98%EB%A9%B0",
+    "title": "[회고록] 3학년 겨울방학을 마치며.."
+  },
+  {
+    "hit": {
+      "전체": "8",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/DevOps-Docker-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0",
+    "title": "[DevOps] Docker 컨테이너의 생명주기"
+  },
+  {
+    "hit": {
+      "전체": "21",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/DevOps-Docker%EB%9E%80",
+    "title": "[DevOps] Docker 그냥 넘어가지말고 한번 보자!"
+  },
+  {
+    "hit": {
+      "전체": "13",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Spring-Security-AbstractAuthenticationProcessingFilter-%EA%B2%A9%ED%8C%8C%ED%95%98%EA%B8%B0",
+    "title": "[Spring Security] AbstractAuthenticationProcessingFilter 격파하기!"
+  },
+  {
+    "hit": {
+      "전체": "6",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Spring-Data-%EC%98%81%EC%86%8D%EC%84%B1-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-Persistence-Context",
+    "title": "[Spring Data] 영속성 컨텍스트 (Persistence Context)"
+  },
+  {
+    "hit": {
+      "전체": "6",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-%EC%98%B5%EC%A0%80%EB%B2%84-%ED%8C%A8%ED%84%B4-%ED%94%84%EB%A1%9D%EC%8B%9C-%ED%8C%A8%ED%84%B4",
+    "title": "[디자인 패턴] 옵저버 패턴 / 프록시 패턴"
+  },
+  {
+    "hit": {
+      "전체": "11",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Spring-Security-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98",
+    "title": "[Spring Security] 스프링 시큐리티 아키텍처"
+  },
+  {
+    "hit": {
+      "전체": "8",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-%EC%A0%84%EB%9E%B5-%ED%8C%A8%ED%84%B4",
+    "title": "[디자인 패턴] 전략 패턴"
+  },
+  {
+    "hit": {
+      "전체": "3",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-%ED%8C%A9%ED%86%A0%EB%A6%AC-%ED%8C%A8%ED%84%B4-r48bdj5n",
+    "title": "[디자인 패턴] 팩토리 패턴"
+  },
+  {
+    "hit": {
+      "전체": "13",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-%EC%8B%B1%EA%B8%80%ED%86%A4-%ED%8C%A8%ED%84%B4",
+    "title": "[디자인 패턴] 싱글톤 패턴"
+  },
+  {
+    "hit": {
+      "전체": "5",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Spring-Security-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0-%EC%86%8C%EA%B0%9C-%EB%B0%8F-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98",
+    "title": "[Spring Security] 스프링 시큐리티 소개"
+  },
+  {
+    "hit": {
+      "전체": "5",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%9D%98-%EC%A0%95%EC%9D%98",
+    "title": "[데이터베이스] 데이터베이스의 정의"
+  },
+  {
+    "hit": {
+      "전체": "6",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80-%EC%A0%95%EB%B3%B4",
+    "title": "[데이터베이스] 데이터와 정보"
+  },
+  {
+    "hit": {
+      "전체": "10",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Spring-Boot-JPA-4-h2%EC%97%90%EC%84%9C-mysql%EB%A1%9C-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98",
+    "title": "[Spring Data] JPA (4) - h2에서 mysql로 마이그레이션 "
+  },
+  {
+    "hit": {
+      "전체": "4",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Spring-Boot-JPA-3-%EA%B4%80%EA%B3%84-%ED%85%8C%EC%9D%B4%EB%B8%94-%EA%B5%AC%EC%84%B1-1NN1NM-%EC%96%91%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84-%EB%8B%A8%EB%B0%A9%ED%96%A5-%EA%B4%80%EA%B3%84",
+    "title": "[Spring Data] JPA (3) - 관계 구성 (1:N,N:1,N:M, 양방향 맵핑, 단방향 맵핑, 연관관계의 주인)"
+  },
+  {
+    "hit": {
+      "전체": "5",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Trouble-Shooting-JPA%EC%97%90%EC%84%9C-%EB%B6%80%EB%AA%A8-%EC%97%94%ED%8B%B0%ED%8B%B0%EC%97%90-%EA%B0%92%EC%9D%B4-%EB%AF%B8%EB%93%B1%EB%A1%9D%EB%90%A0-%EB%95%8C%EC%9D%98-%EC%9B%90%EC%9D%B8%EA%B3%BC-%ED%95%B4%EA%B2%B0-%EC%A0%84%EB%9E%B5",
+    "title": "[Trouble Shooting] JPA에서 부모 엔티티에 값이 미등록될 때의 원인과 해결 전략"
+  },
+  {
+    "hit": {
+      "전체": "7",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Spring-Boot-JPA-2-CRUD-%EA%B8%B0%EB%8A%A5%EC%9D%84-%EC%9C%84%ED%95%9C-JPA-Repository-%EB%A7%8C%EB%93%A4%EA%B8%B0",
+    "title": "[Spring Data] JPA (2) - CRUD 기능을 위한 JPA Repository 만들기"
+  },
+  {
+    "hit": {
+      "전체": "13",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Spring-Boot-JPA-1-%ED%99%98%EA%B2%BD%EC%85%8B%ED%8C%85-Entity-%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0",
+    "title": "[Spring Data] JPA (1) - 환경셋팅 / Entity 클래스 만들기"
+  },
+  {
+    "hit": {
+      "전체": "4",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Trouble-Shooting-Caused-by-org.h2.jdbc.JdbcSQLSyntaxErrorException-Syntax-error-in-SQL-statement-%ED%95%B4%EA%B2%B0",
+    "title": "[Trouble Shooting] Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement 해결"
+  },
+  {
+    "hit": {
+      "전체": "8",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Spring-Boot-DAO-DTO-%EA%B7%B8%EB%A6%AC%EA%B3%A0-VO",
+    "title": "[Spring Boot] DAO, DTO 그리고 VO"
+  },
+  {
+    "hit": {
+      "전체": "7",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Spring-Boot-%EC%9A%94%EC%B2%AD-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95",
+    "title": "[Spring Boot] 요청 데이터 처리 방법"
+  },
+  {
+    "hit": {
+      "전체": "6",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Spring-Boot-Controller%EA%B3%BC-RestController%EC%9D%98-%EC%B0%A8%EC%9D%B4",
+    "title": "[Spring Boot] @Controller과 @RestController의 차이"
+  },
+  {
+    "hit": {
+      "전체": "19",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/SpringBoot-SOLID-%EC%9B%90%EC%B9%99",
+    "title": "[Spring Boot] SOLID 원칙"
+  },
+  {
+    "hit": {
+      "전체": "28",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Algorithm-LCSLongest-Common-Subsequence-%EC%B5%9C%EC%9E%A5-%EA%B3%B5%ED%86%B5-%EB%B6%80%EB%B6%84-%EC%88%98%EC%97%B4",
+    "title": "[Algorithm] LCS(Longest Common Subsequence) 최장 공통 부분 수열"
+  },
+  {
+    "hit": {
+      "전체": "9",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/backend-cookie%EC%99%80-session",
+    "title": "[backend] cookie와 session"
+  },
+  {
+    "hit": {
+      "전체": "24",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/Algorithm-LISLongest-Increasing-Subsequence-%EC%B5%9C%EC%9E%A5-%EC%A6%9D%EA%B0%80-%EB%B6%80%EB%B6%84-%EC%88%98%EC%97%B4-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98",
+    "title": "[Algorithm] LIS(Longest Increasing Subsequence) 최장 증가 부분 수열 알고리즘"
+  },
+  {
+    "hit": {
+      "전체": "29",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/2023-%EC%83%81%EB%B0%98%EA%B8%B0-My-Diary-Blog-%ED%86%A0%EC%9D%B4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D",
+    "title": "[2024-상반기] My Diary Blog 토이 프로젝트 회고록"
+  },
+  {
+    "hit": {
+      "전체": "27",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/BackEnd-token%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%9D%B8%EC%A6%9D",
+    "title": "[backend] token을 통한 인증"
+  },
+  {
+    "hit": {
+      "전체": "42",
+      "오늘": "0",
+      "어제": "0"
+    },
+    "href": "https://velog.io/@knu-kang/2023-2%ED%95%99%EA%B8%B0-%ED%95%B4%EC%BB%A4%ED%86%A4-%ED%9A%8C%EA%B3%A0%EB%A1%9D",
+    "title": "[2023-하반기] 해커톤 회고록"
+  }
+]
