@@ -41,11 +41,19 @@ async function scrollPageToBottom(page) {
 }
 async function run(velog_nickname, github) {
     const browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
     });
     const page = await browser.newPage();
-
+    page.on("request", (req) => {
+        if (req.resourceType() === "stylesheet" || req.resourceType() === "font") {
+            req.abort();
+        } else {
+            req.continue();
+        }
+    });
     try {
+        await page.setRequestInterception(true);
+
         await authenticateOauth(page, "github", velog_nickname, github);
         await scrollPageToBottom(page);
         await new Promise((resolve) => setTimeout(resolve, 3000));
