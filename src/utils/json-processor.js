@@ -23,8 +23,4 @@ async function save(data) {
     });
 }
 
-async function open() {
-    // 파일 열기 로직 구현
-}
-
-module.exports = { save, open };
+module.exports = { save };

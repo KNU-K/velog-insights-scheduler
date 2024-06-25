@@ -1,37 +1,39 @@
 const fs = require("fs");
 const { save } = require("../../src/utils/json-processor");
-
 jest.mock("fs");
 
 describe("save function", () => {
-    it("should save JSON data to a file", async () => {
-        // 모킹된 fs.writeFile 함수 설정
-        fs.writeFile.mockImplementation((filename, data, callback) => {
-            callback(null); // 테스트용으로 항상 성공하도록 설정
+    beforeEach(() => {
+        fs.writeFile.mockClear();
+    });
+
+    it("should save data to a JSON file", async () => {
+        const mockData = { foo: "bar" };
+
+        fs.writeFile.mockImplementation((fileName, data, callback) => {
+            expect(fileName).toMatch(/^data\/\d{4}-\d{2}-\d{2}\.json$/);
+
+            const parsedData = JSON.parse(data);
+            expect(parsedData).toEqual(mockData);
+
+            callback(null);
         });
 
-        const testData = {
-            name: "John Doe",
-            age: 30,
-            email: "john.doe@example.com",
-            isStudent: false,
-            courses: [
-                {
-                    name: "Mathematics",
-                    grade: "A",
-                },
-                {
-                    name: "Science",
-                    grade: "B+",
-                },
-            ],
-        };
+        await save(mockData);
+        expect(fs.writeFile).toHaveBeenCalledTimes(1);
+    });
 
-        // save 함수 호출
-        await save(testData);
+    it("should handle error when saving file", async () => {
+        const mockData = { foo: "bar" };
 
-        const expectedFileName = expect.stringMatching(/^data\/\d{4}-\d{2}-\d{2}\.json$/);
-        // 파일 이름이 예상된 형식과 일치하는지 확인
-        expect(fs.writeFile).toHaveBeenCalledWith(expectedFileName, expect.any(String), expect.any(Function));
+        fs.writeFile.mockImplementation((fileName, data, callback) => {
+            callback(new Error("Mock writeFile error"));
+        });
+        jest.spyOn(console, "error").mockImplementation(() => {});
+
+        await save(mockData);
+        expect(console.error).toHaveBeenCalled();
+        expect(fs.writeFile).toHaveBeenCalledTimes(1);
+        console.error.mockRestore();
     });
 });
