@@ -1,9 +1,9 @@
 const puppeteer = require("puppeteer");
 const jsonProcessor = require("../utils/json-processor");
-const { GITHUB } = require("../config/dotenv");
 
 async function authenticateOauth(page, provider, velog_nickname, github) {
     try {
+        console.log(github, velog_nickname);
         await page.goto(`https://velog.io/@${velog_nickname}/posts`, { waitUntil: "domcontentloaded" });
         await page.waitForSelector(
             "body > div > div.BasicLayout_block__6bmSl > div.responsive_mainResponsive___uG64 > main > div > section > div.VelogPosts_block__nfCQF > div.FlatPostCardList_block__VoFQe "
@@ -25,7 +25,20 @@ async function authenticateOauth(page, provider, velog_nickname, github) {
         throw err;
     }
 }
+async function scrollPageToBottom(page) {
+    let lastHeight = await page.evaluate("document.body.scrollHeight");
 
+    await new Promise((resolve) => setTimeout(resolve, 3000));
+    while (true) {
+        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)");
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+        let newHeight = await page.evaluate("document.body.scrollHeight");
+        if (newHeight === lastHeight) {
+            break;
+        }
+        lastHeight = newHeight;
+    }
+}
 async function run(velog_nickname, github) {
     const browser = await puppeteer.launch({
         headless: false,
@@ -34,18 +47,7 @@ async function run(velog_nickname, github) {
 
     try {
         await authenticateOauth(page, "github", velog_nickname, github);
-        let lastHeight = await page.evaluate("document.body.scrollHeight");
-
-        await new Promise((resolve) => setTimeout(resolve, 3000));
-        while (true) {
-            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)");
-            await new Promise((resolve) => setTimeout(resolve, 1000));
-            let newHeight = await page.evaluate("document.body.scrollHeight");
-            if (newHeight === lastHeight) {
-                break;
-            }
-            lastHeight = newHeight;
-        }
+        await scrollPageToBottom(page);
         await new Promise((resolve) => setTimeout(resolve, 3000));
         await page.waitForSelector(
             "body > div > div.BasicLayout_block__6bmSl > div.responsive_mainResponsive___uG64 > main > div > section > div.VelogPosts_block__nfCQF > div.FlatPostCardList_block__VoFQe "
